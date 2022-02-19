@@ -1,13 +1,4 @@
-sudo apt-get update
-# For Sql-client
-sudo apt-get install mysql-client
+# execute below mentioned 2 commands to run the app
+wget https://github.com/hrushikesh-deshpande01/aws-live/blob/master/deploy.sh
+chmod 755 deploy.sh
 
-# For python and related frameworks
-
-sudo apt-get install python3
-sudo apt-get install python3-flask
-sudo apt-get install python3-pymysql
-sudo apt-get install python3-boto3
-
-# for running application
-sudo python3 Empapp.py
