@@ -1,4 +1,7 @@
-# execute below mentioned 4 commands to run the app
+#STEP 1: update the config file 
+https://github.com/hrushikesh-deshpande01/aws-live/blob/master/config.py
+
+#STEP 2: execute below mentioned 4 commands to run the app
 sudo yum install -y wget   
 wget https://github.com/hrushikesh-deshpande01/aws-live/blob/master/deploy.sh
 chmod 755 deploy.sh
