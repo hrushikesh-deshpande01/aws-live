@@ -1,5 +1,5 @@
-# execute below mentioned 3 commands to run the app
+# execute below mentioned 4 commands to run the app
 sudo yum install -y wget   
 wget https://github.com/hrushikesh-deshpande01/aws-live/blob/master/deploy.sh
 chmod 755 deploy.sh
-
+sh deploy.sh
