@@ -17,7 +17,7 @@ fi
 done
 
 # installing pip
-curl -O curl -O https://bootstrap.pypa.io/pip/3.6/get-pip.py
+curl -O https://bootstrap.pypa.io/pip/3.6/get-pip.py
 python3 get-pip.py --user
 
 #installing required python packages
