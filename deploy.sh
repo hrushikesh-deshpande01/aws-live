@@ -22,6 +22,7 @@ python3 get-pip.py --user
 
 #installing required python packages
 pip install Flask-Flash PyMySQL boto3 --user
+pip install markupsafe==2.0.1
 
 # cloning source code from github
 git clone https://github.com/hrushikesh-deshpande01/aws-live.git
@@ -30,4 +31,4 @@ cd aws-live
 #running application
 export FLASK_APP=EmpApp.py
 export FLASK_ENV=development
-flask run
+pytnon3 EmpApp.py
